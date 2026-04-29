@@ -33,12 +33,12 @@ The project emphasizes:
 - Responsive layout (adapts to terminal size), structured rendering: Header (messages), Game grid, Footer (stats + controls)
 
 ### Project Structure
-python/ 
-  ├── run_game.py 
-  └── treasure_runner/ 
-    ├── bindings/ 
-    ├── models/ 
-    └── ui/
+python/ \
+  ├── run_game.py \
+  └── treasure_runner/ \ 
+    ├── bindings/ \
+    ├── models/ \
+    └── ui/ \
 
 ## How To Run
 1. Prerequisites: Python 3.x and terminal that supports curses (Linux/macOS recommended)
