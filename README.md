@@ -49,6 +49,7 @@ The project emphasizes:
 - **Error Handling**: C errors mapped to Python exceptions
 - **Scalability**: Easy to extend with new features
 
+This project was completed in VSCode with a Docker Container and uploaded to GitHub.
 - April 29th, 2026
 - Evan Leonard
   
