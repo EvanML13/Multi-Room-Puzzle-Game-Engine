@@ -32,18 +32,11 @@ The project emphasizes:
 ### Terminal UI (curses)
 - Responsive layout (adapts to terminal size), structured rendering: Header (messages), Game grid, Footer (stats + controls)
 
-### Project Structure
-python/ \
-  ├── run_game.py \
-  └── treasure_runner/ \ 
-    ├── bindings/ \
-    ├── models/ \
-    └── ui/ \
-
 ## How To Run
 1. Prerequisites: Python 3.x and terminal that supports curses (Linux/macOS recommended)
-2. Run the Game: From the python/ directory: python run_game.py --config <path_to_config.ini> --profile <path_to_profile.json> (e.g., python run_game.py --config ../assets/world.ini --profile ../assets/player_profile.json)
-3. First-Time Setup: If the profile file does not exist uou’ll be prompted to enter your player name, and a new profile will be created automatically
+2. Run the Game: From the python/ directory: python run_game.py --config <path_to_config.ini> --profile <path_to_profile.json>
+   - (e.g., python run_game.py --config ../assets/world.ini --profile ../assets/player_profile.json)
+4. First-Time Setup: If the profile file does not exist uou’ll be prompted to enter your player name, and a new profile will be created automatically
 
 ## Controls
 - Arrow Keys / WASD -> Move player
